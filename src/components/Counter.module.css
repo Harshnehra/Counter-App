@@ -3,6 +3,8 @@
         display: flex;
         justify-content: space-evenly;
         margin-top: 100px;
+        background-color:rgb(253, 225, 192);
+        padding: 25px;
 }
 
 .plus-btn{
@@ -10,6 +12,7 @@
     font-family:cursive;
     background-color:greenyellow;
     font-size: 30px;   
+    border-radius: 10px;
 }
 
 .minus-btn{
@@ -17,6 +20,7 @@
     font-family: cursive;
     background-color:red;
     font-size: 30px;
+    border-radius: 10px;
 }
 
 .display-box{
@@ -26,10 +30,12 @@
     font-size: 30px;
     align-items: center;
     padding: 10px;
+    border-radius: 15px;
 }
 
 .plus-btn:hover, .minus-btn:hover {
     background-color:dodgerblue; 
     transform: scale(1.2); 
     transition: background-color 0.5s, transform 0.5s;
+    border-radius: 10px;
 }    
